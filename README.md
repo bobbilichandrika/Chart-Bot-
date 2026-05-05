@@ -1,3 +1,24 @@
 # Chart-Bot-
-This project is an AI-powered chatbot built using n8n, a no-code/low-code workflow automation tool. The chatbot leverages an AI Agent integrated with an OpenAI Chat Model to handle user queries, generate intelligent responses, and maintain conversational context using memory.
-The workflow is designed to trigger on incoming chat messages, process them through an AI agent, and return context-aware responses in real time. This project demonstrates how Generative AI can be integrated with automation tools to build scalable conversational applications without extensive coding.
+## 🚀 Features
+- 🤖 AI-powered conversational chatbot  
+- ⚡ Real-time response generation  
+- 🧠 Context retention using memory buffer  
+- 🔄 Automated workflow using n8n  
+- 🔗 Integration with OpenAI Chat Model (gpt-4o-mini)  
+- 🧩 No-code / low-code implementation  
+
+## 🛠️ Tech Stack
+- **n8n** – Workflow automation  
+- **OpenAI GPT-4o-mini** – Language model  
+- **AI Agent Node** – Handles reasoning & responses  
+- **Memory Buffer Window** – Maintains conversation context  
+
+## 🔁 Workflow Overview
+1. User sends a message  
+2. **Chat Trigger Node** activates workflow  
+3. **AI Agent** receives input  
+4. **OpenAI Chat Model (gpt-4o-mini)** processes the query  
+5. **Memory Node** stores conversation context  
+6. AI Agent generates response  
+7. Response is returned to the user  
+
